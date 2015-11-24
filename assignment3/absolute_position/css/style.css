@@ -1,0 +1,42 @@
+.container{
+    width: 1002px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    border: 1px solid black;
+}
+
+.container div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+
+.div-1{
+    z-index: 5;
+    background-color: white;
+}
+
+.div-2{
+    top:-50px;
+    left:50px;
+    z-index: 10;
+    background-color: red;
+}
+
+.div-3{
+    top:-100px;
+    left:100px;
+    z-index: 10;
+    background-color: greenyellow;
+}
+
+.div-4{
+    top:-150px;
+    left:150px;
+    z-index: 10;
+    background-color: aqua;
+}

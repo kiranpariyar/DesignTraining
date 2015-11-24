@@ -1,0 +1,49 @@
+.menu-wrapper{
+    height: 50px;
+    padding: 5px;
+}
+
+.menu-wrapper>ul>li{
+    float: left;
+    display: inline;
+}
+
+
+a{
+    display: block;
+    width: 100px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: red;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: blue;
+    color: black;
+}
+
+.menu-wrapper ul li{ 
+    position: relative;
+}
+
+.menu-wrapper ul li:hover{
+    position: relative;
+}
+
+.menu-wrapper ul ul{
+    visibility: hidden;
+    position: absolute;
+}
+
+.menu-wrapper ul li:hover > ul{
+    visibility: visible;
+}
+
+.menu-wrapper ul ul ul {
+    top: 0;
+    left: auto;
+    right: -99.5%;
+}
